@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "exchangeRate"
+    }
+  },
+  "defaultProject": "exchangeRate",
+  "cli": {
+    "analytics": "f731c3d3-1d55-41c5-9e09-ee6cc1aa7955"
+  }
 }

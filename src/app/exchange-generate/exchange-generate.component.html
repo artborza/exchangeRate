@@ -1,0 +1,26 @@
+<div class="row" style="height: 350px;">
+    <div class="col-12">
+        <div class="col-5 offset-4" style="margin-top: 280px;">
+            <div class="row">
+                <select class="custom-select col-4" [(ngModel)]="currency1" (change)="changeCurrency1()">
+                    <option value="">Please choose one</option>
+                <option *ngFor="let exChange1 of listExchange1" >{{exChange1}}</option>
+             </select> &nbsp;&nbsp;&nbsp;
+                <input type="number" [(ngModel)]="inputCurrency1" (keyup)="changeCurrency1()" class="form-control col-5" style="margin: 0px;text-align: right;" id="inputEmail4">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" style="height: 350px;background-color: rgb(209, 237, 240);">
+    <div class="col-12">
+        <div class="col-5 offset-4" style="margin-top: 40px;">
+            <div class="row">
+                <select class="custom-select col-4" [(ngModel)]="currency2" (change)="changeCurrency2()">
+                <option value="">Please choose one</option>
+                <option *ngFor="let exChange1 of listExchange1" >{{exChange1}}</option>
+             </select> &nbsp;&nbsp;&nbsp;
+                <input type="number" [(ngModel)]="inputCurrency2" (keyup)="changeCurrency2()" class="form-control col-5" style="margin: 0px;text-align: right;" id="inputEmail4">
+            </div>
+        </div>
+    </div>
+</div>
